@@ -59,7 +59,8 @@ ADD https://raw.githubusercontent.com/sparkpos/docker-nginx-php/master/conf/supe
 RUN mkdir -p /etc/supervisor/conf.d
 
 #ADD  https://github.com/guohailong2006/docker-nginx-php/blob/master/index1.html /var/www/html
-ADD http://htmlpreview.github.io/?https://github.com/guohailong2006/docker-nginx-php/blob/master/index2.html /var/www/html
+ADD http://htmlpreview.github.io/?https://github.com/guohailong2006/docker-nginx-php/blob/master/index2.html /var/www/html/index2.html
+
 ###### startup prepare ######
 VOLUME ["/var/www/html", "/etc/nignx/site-enabled", "/usr/local/etc"]
 
